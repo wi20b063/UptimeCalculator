@@ -16,7 +16,7 @@ public class UptimeControllerTest {
         String acutalValue = controller.calculateUptime(99.95);
 
         //Assert
-        Assertions.assertEquals(String.format("%.2f", 43178,40), acutalValue);
+        Assertions.assertEquals(String.format("%.2f", 43178.40), acutalValue);
 
     }
 
